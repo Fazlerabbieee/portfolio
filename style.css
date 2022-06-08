@@ -1,0 +1,54 @@
+body{
+    font-family: poppins;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+.name{
+    color: blueviolet;
+}
+
+section{
+    display: flex;
+    padding: 5%;
+}
+
+
+img{
+    width: 80%;
+}
+.half-width{
+    width: 50%;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(blueviolet,blue);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.experience{
+    display: flex;
+}
+
+.full-stack, .frontend, .backend{
+    padding: 3% 5% ;
+    box-shadow: 10px 10px 30px  gray ;
+    margin: 20px;
+    border-radius: 0px 20px 70px  0px ;
+    border-left:  5px solid;
+    border-image: linear-gradient(cyan, blue ) ;
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
