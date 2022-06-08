@@ -1,5 +1,6 @@
 body{
     font-family: poppins;
+    margin: 0;
 }
 
 h1{
@@ -10,17 +11,27 @@ h2{
 }
 
 .name{
-    color: blueviolet;
+    color: black;
 }
 
 section{
     display: flex;
-    padding: 5%;
+    padding: 5% 10%;
+    
 }
 
+.top-banner{
+    background-image: url(/images/wave.svg);
+    background-repeat: no-repeat;
+}
 
+.section2{
+    background-image: url(/images/slide-2.png);
+    background-repeat: no-repeat;
+}
 img{
     width: 80%;
+    border-radius: 50%;
 }
 .half-width{
     width: 50%;
